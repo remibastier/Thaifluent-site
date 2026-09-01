@@ -418,6 +418,108 @@
       color: #64748B;
       font-size: 0.85rem;
     }
+  
+    /* Coming Soon Modal */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(11, 15, 25, 0.82);
+      backdrop-filter: blur(12px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 20px;
+      animation: fadeIn 0.2s ease-out;
+    }
+
+    .modal-card {
+      background: #111827;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      border-radius: 24px;
+      padding: 36px 32px;
+      max-width: 440px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7), 0 0 30px rgba(245, 158, 11, 0.15);
+      transform: translateY(0);
+      animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .modal-icon-glow {
+      display: inline-flex;
+      padding: 6px;
+      background: rgba(245, 158, 11, 0.15);
+      border-radius: 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 24px rgba(245, 158, 11, 0.3);
+    }
+
+    .modal-title {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: #F8FAFC;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+
+    .modal-desc {
+      color: #94A3B8;
+      font-size: 0.98rem;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .modal-badge-row {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .modal-badge {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #CBD5E1;
+    }
+
+    .btn-modal-close {
+      width: 100%;
+      background: linear-gradient(135deg, #F59E0B, #EA580C);
+      color: #0F172A;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 14px 24px;
+      border-radius: 14px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 10px 20px rgba(245, 158, 11, 0.3);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-modal-close:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 30px rgba(245, 158, 11, 0.45);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px) scale(0.96); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
   </style>
 </head>
 <body>
@@ -450,7 +552,7 @@
             Conquer the 5 tones with visual pitch curves, assemble authentic phrases like Lego blocks, and practice hands-free anywhere. 100% offline and private.
           </p>
           <div class="hero-cta-group">
-            <a href="https://play.google.com/store/apps/details?id=com.thaifluent.app" class="btn-primary">
+            <a href="#" onclick="showComingSoon(event)" class="btn-primary">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
               <span>Get on Google Play</span>
             </a>
@@ -568,5 +670,42 @@
       </div>
     </div>
   </footer>
+
+  <!-- Coming Soon Modal -->
+  <div id="comingSoonModal" class="modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-icon-glow">
+        <img src="assets/app-icon.png" width="56" height="56" alt="" style="display: block; width: 56px; height: 56px; border-radius: 16px;">
+      </div>
+      <h3 class="modal-title">Coming Soon to Google Play! 🚀</h3>
+      <p class="modal-desc">
+        ThaiFluent is currently being published to the <strong>Google Play Store</strong> and undergoing final review. It will be available for download shortly!
+      </p>
+      <div class="modal-badge-row">
+        <span class="modal-badge">✨ 30 Modules</span>
+        <span class="modal-badge">🎧 Tone Gym</span>
+        <span class="modal-badge">🔒 100% Offline</span>
+      </div>
+      <button onclick="closeComingSoon()" class="btn-modal-close">Got It!</button>
+    </div>
+  </div>
+
+  <script>
+    function showComingSoon(e) {
+      if (e) e.preventDefault();
+      document.getElementById('comingSoonModal').style.display = 'flex';
+    }
+    function closeComingSoon() {
+      document.getElementById('comingSoonModal').style.display = 'none';
+    }
+    // Close on backdrop tap
+    document.addEventListener('click', function(e) {
+      var modal = document.getElementById('comingSoonModal');
+      if (e.target === modal) {
+        closeComingSoon();
+      }
+    });
+  </script>
+
 </body>
 </html>
