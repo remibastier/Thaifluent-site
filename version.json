@@ -1,5 +1,5 @@
 {
-  "latestVersion": "1.14.0",
+  "latestVersion": "1.13.0",
   "minimumVersion": "1.0.0",
   "forceUpdate": false,
   "releaseDate": "2026-09-13",
@@ -8,8 +8,8 @@
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "ThaiFluent v1.14.0 is now available! Discover new conversational content and enhanced stability.",
-    "fr": "ThaiFluent v1.14.0 est disponible ! Découvrez de nouveaux contenus de conversation et une stabilité accrue."
+    "en": "New lessons, improved audio pronunciation, and performance enhancements.",
+    "fr": "Nouvelles leçons, prononciation audio améliorée et optimisations de performance."
   },
   "updateUrl": "https://thaifluent.com",
   "storeUrls": {
