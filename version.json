@@ -1,0 +1,22 @@
+{
+  "latestVersion": "1.12.0",
+  "minimumVersion": "1.0.0",
+  "forceUpdate": false,
+  "releaseDate": "2026-09-13",
+  "title": {
+    "en": "New Update Available",
+    "fr": "Nouvelle mise à jour disponible"
+  },
+  "notes": {
+    "en": "New lessons, improved audio pronunciation, and performance enhancements.",
+    "fr": "Nouvelles leçons, prononciation audio améliorée et optimisations de performance."
+  },
+  "updateUrl": "https://thaifluent.com",
+  "storeUrls": {
+    "android": "",
+    "androidWeb": "",
+    "ios": "",
+    "iosWeb": "",
+    "webFallback": "https://thaifluent.com"
+  }
+}
