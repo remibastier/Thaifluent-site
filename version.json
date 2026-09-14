@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.13.1",
+  "latestVersion": "1.14.0",
   "minimumVersion": "1.0.0",
   "forceUpdate": false,
-  "releaseDate": "2026-09-13",
+  "releaseDate": "2026-09-14",
   "title": {
     "en": "New Update Available",
     "fr": "Nouvelle mise à jour disponible"
