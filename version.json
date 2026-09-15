@@ -1,5 +1,5 @@
 {
-  "latestVersion": "1.15.0",
+  "latestVersion": "1.15.1",
   "minimumVersion": "1.0.0",
   "forceUpdate": false,
   "releaseDate": "2026-09-15",
@@ -8,8 +8,8 @@
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "Visual harmony with category card accents, synchronized stage themes, and expanded XP breakdown.",
-    "fr": "Harmonie visuelle avec bordures d'accent colorées, étapes synchronisées et détail des points XP."
+    "en": "Distinct metallic trophy badges, straight vertical alignment, and accurate level progression thresholds.",
+    "fr": "Trophées métalliques distincts, alignement vertical soigné et paliers de niveaux précis."
   },
   "updateUrl": "https://thaifluent.com",
   "storeUrls": {
