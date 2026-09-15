@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.14.0",
+  "latestVersion": "1.15.0",
   "minimumVersion": "1.0.0",
   "forceUpdate": false,
-  "releaseDate": "2026-09-14",
+  "releaseDate": "2026-09-15",
   "title": {
     "en": "New Update Available",
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "New lessons, improved audio pronunciation, and performance enhancements.",
-    "fr": "Nouvelles leçons, prononciation audio améliorée et optimisations de performance."
+    "en": "Visual harmony with category card accents, synchronized stage themes, and expanded XP breakdown.",
+    "fr": "Harmonie visuelle avec bordures d'accent colorées, étapes synchronisées et détail des points XP."
   },
   "updateUrl": "https://thaifluent.com",
   "storeUrls": {
