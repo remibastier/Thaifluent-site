@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.15.1",
+  "latestVersion": "1.15.2",
   "minimumVersion": "1.0.0",
   "forceUpdate": false,
-  "releaseDate": "2026-09-15",
+  "releaseDate": "2026-09-16",
   "title": {
     "en": "New Update Available",
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "Distinct metallic trophy badges, straight vertical alignment, and accurate level progression thresholds.",
-    "fr": "Trophées métalliques distincts, alignement vertical soigné et paliers de niveaux précis."
+    "en": "Reliable daily streak freeze tracking, seamless freeze consumption, and streamlined Pro session synchronization.",
+    "fr": "Suivi fiable des gels de série, décompte fidèle des protections et synchronisation Pro optimisée."
   },
   "updateUrl": "https://thaifluent.com",
   "storeUrls": {
