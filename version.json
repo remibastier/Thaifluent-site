@@ -1,5 +1,5 @@
 {
-  "latestVersion": "1.17.0",
+  "latestVersion": "1.17.1",
   "minimumVersion": "1.0.0",
   "forceUpdate": false,
   "releaseDate": "2026-09-17",
@@ -8,8 +8,8 @@
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "Interactive dialogue lessons with turn-by-turn audio, intuitive Sx.My stage-module indexing, and refined practice drills.",
-    "fr": "Leçons de dialogues interactifs avec voix alternées, indexation intuitive Sx.My par niveau et entraînements optimisés."
+    "en": "Audio reliability improvements: automatic voice engine recovery on cold start, smart TTS troubleshooting dialog, and instant audio interruption when switching voices.",
+    "fr": "Fiabilité audio améliorée : récupération automatique du moteur vocal au démarrage, assistant de diagnostic vocal, et interruption instantanée lors du changement de voix."
   },
   "updateUrl": "https://thaifluent.com",
   "storeUrls": {
