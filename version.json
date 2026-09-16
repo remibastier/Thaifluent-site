@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.16.0",
+  "latestVersion": "1.17.0",
   "minimumVersion": "1.0.0",
   "forceUpdate": false,
-  "releaseDate": "2026-09-16",
+  "releaseDate": "2026-09-17",
   "title": {
     "en": "New Update Available",
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "Sentence Constructor drill, Expert 5-choice challenge mode, zero-collision quiz precision, and module bookmark counts.",
-    "fr": "Constructeur de phrases complètes, défi Expert à 5 choix, précision absolue des quiz et compteurs de modules favoris."
+    "en": "Interactive dialogue lessons with turn-by-turn audio, intuitive Sx.My stage-module indexing, and refined practice drills.",
+    "fr": "Leçons de dialogues interactifs avec voix alternées, indexation intuitive Sx.My par niveau et entraînements optimisés."
   },
   "updateUrl": "https://thaifluent.com",
   "storeUrls": {
