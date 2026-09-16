@@ -1,5 +1,5 @@
 {
-  "latestVersion": "1.15.2",
+  "latestVersion": "1.16.0",
   "minimumVersion": "1.0.0",
   "forceUpdate": false,
   "releaseDate": "2026-09-16",
@@ -8,8 +8,8 @@
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "Reliable daily streak freeze tracking, seamless freeze consumption, and streamlined Pro session synchronization.",
-    "fr": "Suivi fiable des gels de série, décompte fidèle des protections et synchronisation Pro optimisée."
+    "en": "Sentence Constructor drill, Expert 5-choice challenge mode, zero-collision quiz precision, and module bookmark counts.",
+    "fr": "Constructeur de phrases complètes, défi Expert à 5 choix, précision absolue des quiz et compteurs de modules favoris."
   },
   "updateUrl": "https://thaifluent.com",
   "storeUrls": {
