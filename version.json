@@ -1,8 +1,8 @@
 {
   "latestVersion": "1.17.1",
-  "minimumVersion": "1.0.0",
+  "minimumVersion": "1.17.1",
   "forceUpdate": false,
-  "releaseDate": "2026-09-17",
+  "releaseDate": "2026-09-19",
   "title": {
     "en": "New Update Available",
     "fr": "Nouvelle mise à jour disponible"
@@ -11,10 +11,10 @@
     "en": "Audio reliability improvements: automatic voice engine recovery on cold start, smart TTS troubleshooting dialog, and instant audio interruption when switching voices.",
     "fr": "Fiabilité audio améliorée : récupération automatique du moteur vocal au démarrage, assistant de diagnostic vocal, et interruption instantanée lors du changement de voix."
   },
-  "updateUrl": "https://thaifluent.com",
+  "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
-    "android": "",
-    "androidWeb": "",
+    "android": "market://details?id=com.thaifluent.app",
+    "androidWeb": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
     "ios": "",
     "iosWeb": "",
     "webFallback": "https://thaifluent.com"
