@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.17.1",
-  "minimumVersion": "1.17.1",
+  "latestVersion": "1.18.0",
+  "minimumVersion": "1.18.0",
   "forceUpdate": false,
-  "releaseDate": "2026-09-19",
+  "releaseDate": "2026-09-21",
   "title": {
     "en": "New Update Available",
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "Audio reliability improvements: automatic voice engine recovery on cold start, smart TTS troubleshooting dialog, and instant audio interruption when switching voices.",
-    "fr": "Fiabilité audio améliorée : récupération automatique du moteur vocal au démarrage, assistant de diagnostic vocal, et interruption instantanée lors du changement de voix."
+    "en": "Enhanced 3-button navigation bar support, practice drill action buttons anchored to screen bottom, and smoother Spaced Repetition (SRS) drill loading.",
+    "fr": "Support optimisé de la navigation 3 boutons, boutons d'entraînement ancrés en bas d'écran et chargement plus fluide des révisions espacées (SRS)."
   },
   "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
