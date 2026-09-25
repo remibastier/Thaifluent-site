@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.18.0",
-  "minimumVersion": "1.18.0",
+  "latestVersion": "1.19.0",
+  "minimumVersion": "1.19.0",
   "forceUpdate": false,
-  "releaseDate": "2026-09-21",
+  "releaseDate": "2026-09-25",
   "title": {
     "en": "New Update Available",
-    "fr": "Nouvelle mise à jour disponible"
+    "fr": "Nouvelle mise \u00e0 jour disponible"
   },
   "notes": {
-    "en": "Enhanced 3-button navigation bar support, practice drill action buttons anchored to screen bottom, and smoother Spaced Repetition (SRS) drill loading.",
-    "fr": "Support optimisé de la navigation 3 boutons, boutons d'entraînement ancrés en bas d'écran et chargement plus fluide des révisions espacées (SRS)."
+    "en": "In-app review integration, vibrant thematic module icons across practice drills & selectors, and storage restore reliability.",
+    "fr": "Avis in-app direct, ic\u00f4nes th\u00e9matiques pour chaque module dans les entra\u00eenements et restauration des sauvegardes fiabilis\u00e9e."
   },
   "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
