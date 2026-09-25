@@ -21,9 +21,14 @@
   <meta name="description" content="Privacy Policy for ThaiFluent mobile app and thaifluent.com. 100% offline and private.">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="shortcut icon" href="favicon.ico">
+  <!-- Optimized Font Loading: Non-Render-Blocking -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  </noscript>
   <style>
     :root {
       --bg: #0B0F19;
@@ -184,7 +189,7 @@
     <div class="container">
       <nav>
         <a href="/" class="brand">
-          <img src="assets/app-icon.png" width="42" height="42" alt="" style="display: block; width: 42px; height: 42px; border-radius: 12px; flex-shrink: 0;">
+          <picture><source srcset="assets/app-icon.webp" type="image/webp"><img src="assets/app-icon.png" width="42" height="42" alt="ThaiFluent App Icon" style="display: block; width: 42px; height: 42px; border-radius: 12px; flex-shrink: 0;" loading="eager" decoding="async"></picture>
           <span>ThaiFluent</span>
         </a>
         <div class="nav-links">
