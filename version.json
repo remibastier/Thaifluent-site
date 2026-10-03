@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.19.1",
+  "latestVersion": "1.19.2",
   "minimumVersion": "1.19.0",
   "forceUpdate": false,
-  "releaseDate": "2026-10-01",
+  "releaseDate": "2026-10-03",
   "title": {
     "en": "New Update Available",
     "fr": "Nouvelle mise à jour disponible"
   },
   "notes": {
-    "en": "Visual vocabulary illustration polish, deeper sentence building blocks, adaptive streak reminders, and seamless background upgrade checks.",
-    "fr": "Illustrations de vocabulaire affinées, décomposition bloc par bloc des phrases, rappels intelligents et vérification automatique des mises à jour."
+    "en": "Seamless SRS practice sessions, instantaneous drill loading, and enhanced touch precision on interactive cards.",
+    "fr": "Sessions de répétition espacée ultra-fluides, chargement instantané des exercices et précision tactile renforcée."
   },
   "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
