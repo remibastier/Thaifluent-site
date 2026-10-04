@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.19.2",
+  "latestVersion": "1.19.3",
   "minimumVersion": "1.19.0",
   "forceUpdate": false,
-  "releaseDate": "2026-10-03",
+  "releaseDate": "2026-10-04",
   "title": {
-    "en": "New Update Available",
-    "fr": "Nouvelle mise à jour disponible"
+    "en": "Smarter Reminders & Quiz Precision",
+    "fr": "Rappels intelligents et quiz plus clairs"
   },
   "notes": {
-    "en": "Seamless SRS practice sessions, instantaneous drill loading, and enhanced touch precision on interactive cards.",
-    "fr": "Sessions de répétition espacée ultra-fluides, chargement instantané des exercices et précision tactile renforcée."
+    "en": "Smarter reminders, practice streaks, single-solution sentence builders, duplicate-free quizzes, silent vocabulary study, and clearer word breakdowns.",
+    "fr": "Rappels intelligents, séries prolongées par la pratique, phrases à solution unique, quiz sans doublons, étude du vocabulaire sans son et décomposition des mots plus claire."
   },
   "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
