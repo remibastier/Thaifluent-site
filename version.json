@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.19.3",
+  "latestVersion": "1.19.4",
   "minimumVersion": "1.19.0",
   "forceUpdate": false,
-  "releaseDate": "2026-10-04",
+  "releaseDate": "2026-10-13",
   "title": {
-    "en": "Smarter Reminders & Quiz Precision",
-    "fr": "Rappels intelligents et quiz plus clairs"
+    "en": "Seamless Resume & Performance",
+    "fr": "Reprise fluide et performances"
   },
   "notes": {
-    "en": "Smarter reminders, practice streaks, single-solution sentence builders, duplicate-free quizzes, silent vocabulary study, and clearer word breakdowns.",
-    "fr": "Rappels intelligents, séries prolongées par la pratique, phrases à solution unique, quiz sans doublons, étude du vocabulaire sans son et décomposition des mots plus claire."
+    "en": "Resolved background resume responsiveness, high-precision study time tracking, and smoother screen transitions.",
+    "fr": "Correction de la réactivité lors de la reprise en arrière-plan, suivi haute précision du temps d'étude et navigation plus fluide."
   },
   "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
