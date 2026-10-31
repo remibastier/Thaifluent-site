@@ -1,15 +1,15 @@
 {
-  "latestVersion": "1.20.0",
+  "latestVersion": "1.21.0",
   "minimumVersion": "1.19.0",
   "forceUpdate": false,
-  "releaseDate": "2026-10-23",
+  "releaseDate": "2026-10-31",
   "title": {
-    "en": "Family & Kinship Lessons, Leaner Footprint",
-    "fr": "Leçons Famille & Proches, Empreinte Allégée"
+    "en": "Instant Sentence Feedback & Streak Polish",
+    "fr": "Correction Immédiate & Pratique Quotidienne"
   },
   "notes": {
-    "en": "Learn family members, parents, siblings & spouses in Module 13, plus enhanced app performance and faster startup.",
-    "fr": "Apprenez les membres de la famille, parents, fratrie et conjoints dans le Module 13, avec performances et démarrage accélérés."
+    "en": "Instant green/red feedback on sentence builders, optimized streak & freeze vault display, and streamlined daily goal navigation.",
+    "fr": "Retour visuel vert/rouge instantané sur les phrases, affichage optimisé de la série et des gels, et navigation fluide."
   },
   "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
