@@ -1,22 +1,22 @@
 {
-  "latestVersion": "1.21.0",
+  "latestVersion": "1.21.1",
   "minimumVersion": "1.19.0",
   "forceUpdate": false,
-  "releaseDate": "2026-10-31",
+  "releaseDate": "2026-11-20",
   "title": {
-    "en": "Instant Sentence Feedback & Streak Polish",
-    "fr": "Correction Immédiate & Pratique Quotidienne"
+    "en": "iOS App Store Launch & Audio Engine Polish",
+    "fr": "Lancement App Store iOS & Optimisation Audio"
   },
   "notes": {
-    "en": "Instant green/red feedback on sentence builders, optimized streak & freeze vault display, and streamlined daily goal navigation.",
-    "fr": "Retour visuel vert/rouge instantané sur les phrases, affichage optimisé de la série et des gels, et navigation fluide."
+    "en": "Official iOS & iPadOS App Store release, enhanced Thai speech voice fallback on iPadOS, and instant green/red sentence feedback.",
+    "fr": "Sortie officielle sur l'App Store iOS et iPadOS, synthèse vocale thaïe optimisée sur iPad et correction visuelle instantanée."
   },
   "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
     "android": "market://details?id=com.thaifluent.app",
     "androidWeb": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
-    "ios": "",
-    "iosWeb": "",
+    "ios": "itms-apps://itunes.apple.com/app/id6829382053",
+    "iosWeb": "https://apps.apple.com/app/id6829382053",
     "webFallback": "https://thaifluent.com"
   }
 }
