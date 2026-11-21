@@ -1,28 +1,28 @@
 {
-  "latestVersion": "1.21.0",
+  "latestVersion": "1.21.1",
   "minimumVersion": "1.19.0",
   "forceUpdate": false,
-  "releaseDate": "2026-10-31",
+  "releaseDate": "2026-11-21",
   "title": {
-    "en": "Instant Sentence Feedback & Streak Polish",
-    "fr": "Correction Immédiate & Pratique Quotidienne"
+    "en": "Practice Drill History & Sentence Feedback",
+    "fr": "Historique Pratique & Correction Immédiate"
   },
   "notes": {
-    "en": "Instant green/red feedback on sentence builders, optimized streak & freeze vault display, and streamlined daily goal navigation.",
-    "fr": "Retour visuel vert/rouge instantané sur les phrases, affichage optimisé de la série et des gels, et navigation fluide."
+    "en": "Your Spaced Repetition (SRS), Daily Flash, and Practice Drill scores now appear in Profile's Recent Quiz Attempts, plus instant green/red sentence feedback.",
+    "fr": "Vos scores de Répétition Spacée (SRS), Flash Quotidien et entraînements apparaissent désormais dans vos dernières tentatives sur le Profil."
   },
   "platforms": {
     "android": {
-      "latestVersion": "1.21.0",
+      "latestVersion": "1.22.0",
       "minimumVersion": "1.19.0",
       "forceUpdate": false,
       "title": {
-        "en": "Instant Sentence Feedback & Streak Polish",
-        "fr": "Correction Immédiate & Pratique Quotidienne"
+        "en": "Practice Drill History & Sentence Feedback",
+        "fr": "Historique Pratique & Correction Immédiate"
       },
       "notes": {
-        "en": "Instant green/red feedback on sentence builders, optimized streak & freeze vault display, and streamlined daily goal navigation.",
-        "fr": "Retour visuel vert/rouge instantané sur les phrases, affichage optimisé de la série et des gels, et navigation fluide."
+        "en": "Your Spaced Repetition (SRS), Daily Flash, and Practice Drill scores now appear in Profile's Recent Quiz Attempts, plus instant green/red sentence feedback.",
+        "fr": "Vos scores de Répétition Spacée (SRS), Flash Quotidien et entraînements apparaissent désormais dans vos dernières tentatives sur le Profil."
       }
     },
     "ios": {
