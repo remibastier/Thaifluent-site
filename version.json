@@ -1,15 +1,43 @@
 {
-  "latestVersion": "1.21.1",
+  "latestVersion": "1.21.0",
   "minimumVersion": "1.19.0",
   "forceUpdate": false,
-  "releaseDate": "2026-11-20",
+  "releaseDate": "2026-10-31",
   "title": {
-    "en": "iOS App Store Launch & Audio Engine Polish",
-    "fr": "Lancement App Store iOS & Optimisation Audio"
+    "en": "Instant Sentence Feedback & Streak Polish",
+    "fr": "Correction Immédiate & Pratique Quotidienne"
   },
   "notes": {
-    "en": "Official iOS & iPadOS App Store release, enhanced Thai speech voice fallback on iPadOS, and instant green/red sentence feedback.",
-    "fr": "Sortie officielle sur l'App Store iOS et iPadOS, synthèse vocale thaïe optimisée sur iPad et correction visuelle instantanée."
+    "en": "Instant green/red feedback on sentence builders, optimized streak & freeze vault display, and streamlined daily goal navigation.",
+    "fr": "Retour visuel vert/rouge instantané sur les phrases, affichage optimisé de la série et des gels, et navigation fluide."
+  },
+  "platforms": {
+    "android": {
+      "latestVersion": "1.21.0",
+      "minimumVersion": "1.19.0",
+      "forceUpdate": false,
+      "title": {
+        "en": "Instant Sentence Feedback & Streak Polish",
+        "fr": "Correction Immédiate & Pratique Quotidienne"
+      },
+      "notes": {
+        "en": "Instant green/red feedback on sentence builders, optimized streak & freeze vault display, and streamlined daily goal navigation.",
+        "fr": "Retour visuel vert/rouge instantané sur les phrases, affichage optimisé de la série et des gels, et navigation fluide."
+      }
+    },
+    "ios": {
+      "latestVersion": "1.21.1",
+      "minimumVersion": "1.21.1",
+      "forceUpdate": false,
+      "title": {
+        "en": "Audio Engine & Voice Fallback Polish",
+        "fr": "Optimisation Audio & Synthèse Vocale"
+      },
+      "notes": {
+        "en": "Enhanced Thai speech synthesis voice fallback on iOS & iPadOS and instant green/red sentence builder feedback.",
+        "fr": "Synthèse vocale thaïe optimisée sur iPhone et iPad et correction visuelle instantanée sur les phrases."
+      }
+    }
   },
   "updateUrl": "https://play.google.com/store/apps/details?id=com.thaifluent.app",
   "storeUrls": {
