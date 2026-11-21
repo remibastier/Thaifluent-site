@@ -13,15 +13,15 @@
   },
   "platforms": {
     "android": {
-      "latestVersion": "1.22.0",
+      "latestVersion": "1.22.1",
       "minimumVersion": "1.19.0",
       "forceUpdate": false,
       "title": {
-        "en": "Practice Drill History & Sentence Feedback",
-        "fr": "Historique Pratique & Correction Immédiate"
+        "en": "Practice Drill History & UI Ergonomics",
+        "fr": "Historique Pratique & Ergonomie Optimisée"
       },
       "notes": {
-        "en": "Your Spaced Repetition (SRS), Daily Flash, and Practice Drill scores now appear in Profile's Recent Quiz Attempts, plus instant green/red sentence feedback.",
+        "en": "Your Spaced Repetition (SRS), Daily Flash, and Practice Drill scores now appear in Profile's Recent Quiz Attempts, plus enhanced full-screen modal ergonomics.",
         "fr": "Vos scores de Répétition Spacée (SRS), Flash Quotidien et entraînements apparaissent désormais dans vos dernières tentatives sur le Profil."
       }
     },
